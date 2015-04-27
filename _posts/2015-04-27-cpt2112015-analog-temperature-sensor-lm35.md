@@ -45,5 +45,9 @@ Compile and upload. Open 'Serial Monitor' to display the captured temperature on
 
 ![](/img/lm35-serial-monitor.png)
 
+## Try this out
+
+* Modify the code. Use analog temperature sensor (LM35) to blink built-in LED (pin 13). Do quick blinking if the temperature goes above 30 *C. Otherwise blink slowly. 
+
 
 
