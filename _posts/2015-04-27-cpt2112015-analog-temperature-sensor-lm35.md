@@ -2,8 +2,8 @@
 layout: post
 title: "CPT211/2015: Analog Temperature Sensor (lm35)"
 description: ""
-category: 
-tags: []
+category: lessons
+tags: [Galileo, CPT211]
 ---
 {% include JB/setup %}
 

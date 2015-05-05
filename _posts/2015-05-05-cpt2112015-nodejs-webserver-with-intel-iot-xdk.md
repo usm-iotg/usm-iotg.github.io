@@ -1,38 +1,21 @@
 ---
 layout: post
-title: "Module 3: Galileo - Nodejs Server"
+title: "CPT211/2015: Nodejs Webserver with Intel IoT XDK"
 description: ""
-category: Lessons
-tags: [Galileo, Module-3]
+category: 
+tags: []
 ---
 {% include JB/setup %}
 
-This written guide will introduce Node.js and to start development with Intel Galileo
-
-# Node.js
-
-Node.js is an open-source, cross platform runtime environment for server-side and networking application. Node.js application are written in JavaScript and can be run within the Node.js runtime on different platforms.
-
-Here we list out some of the advantages of using Node.js:
-
-* Provide rapid and robust development.
-* Easy to build and scalable.
-* There are a number of libraries to try on. 
-* Real-time application fits quite well with Node.js
-* Backed by wonderful and helpful community thus there are always answer out there.
-
-and we think that there are some aspects that Node.js should not be used (maybe at least at this moment):
-
-* Relational database tools are still not pleasant to work with. 
-* **Heavy** server-side which involves **heavy** computation are not recommended.   
-
-#### Node.js + Galileo: A good match?
-
-Yup. Node.js actually enable Galileo for rapid development. Plus Node.js is easy to start. If you are looking at the Quark chip inside of Galileo (which powered by 400Mhz), it means that we need to have a not-so-heavy applications to run with. 
+info: This tutorial is written for CPT211 Programming Languages Concepts and Paradigms of semester 2 academic session 2014/2015.
 
 # Before You Start
 
-You will need a Galileo board with network configured. Connect to Galileo board via SSH or Telnet and make sure that you can access the console. For writing/editing you may use *Vi*. Otherwise you can write it first *offline* and then transfer the files from your PC to the board (you can use *SCP* in Linux or *FileZilla* in Windows).
+* You will need Intel IoT XDK Edition to deploy, run and debug IoT application.
+* You will need a working and stable internet connection. 
+* an Micro-SD card.
+
+*Note that in this guide, we use both Windows and Linux (Ubuntu 12.04) both for setting up the image to micro-SD, and run the project with Intel IoT XDK respectively. ([Intel IoT XDK](https://software.intel.com/en-us/html5/xdk-iot) are available on Linux, Windows and OSX)  
 
 # 1. Prepare the Image
 
@@ -146,3 +129,8 @@ Simply check your running HTTP server. Open your browser and navigate to **"http
 
 ![](/img/intel-iot-xdk-17.png)
 
+## References
+
+* [Intel IoT XDK: Get Started](/lessons/2015/04/24/cpt2112015-intel-iot-xdk-get-started)
+
+* [A simple Analog Temperature (lm35) with Intel IoT XDK](https://bitbucket.org/hadrihl/iot-lm35)
